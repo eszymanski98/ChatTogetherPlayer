@@ -1,0 +1,29 @@
+.rmContainer {
+  background: grey;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.rmInnerContainer {
+  height: 100%;
+  display: flex;
+  flex: 1;
+  background: black;
+  min-height:0;
+}
+
+.rmPlaylist {
+  flex:1;
+  max-width: 220px;
+}
+
+.rmPlayer {
+  flex:1;
+  width: 100%;
+}
+
+.rmChat {
+  flex:1;
+  max-width: 320px;
+}

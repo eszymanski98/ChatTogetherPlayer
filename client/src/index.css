@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.appContainer {
+  overflow-y: hidden;
+}
+
+.appAnimContainer {
+  position: absolute;
+  width: 100%;
+}
+
+.appAnimDown-enter {
+  transform: translateY(-100%);
+}
+.appAnimDown-enter-active {
+  transform: translateY(0%);
+  transition: transform 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.appAnimDown-exit {
+  transform: translateY(0);
+}
+.appAnimDown-exit-active {
+  transform: translateY(-100%);
+  transition: transform 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.appAnimUp-enter {
+  transform: translateY(100%);
+}
+.appAnimUp-enter-active {
+  transform: translateY(0%);
+  transition: transform 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.appAnimUp-exit {
+  transform: translateY(0);
+}
+.appAnimUp-exit-active {
+  transform: translateY(100%);
+  transition: transform 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+}

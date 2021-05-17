@@ -1,0 +1,29 @@
+.scrlContainer {
+  color: transparent;
+  border-color: transparent;
+  transition: all var(--scrlTransitionDuration);
+  transition-delay: var(--scrlTransitionDelay);
+  overflow: auto;
+}
+
+.scrlContainer:hover {
+  border-color: var(--scrlBorder);
+  color: var(--scrlBg);
+  transition-delay: 0s;
+}
+
+.scrlContainer::-webkit-scrollbar {
+  width: var(--scrlWidth);
+  height: var(--scrlWidth);
+}
+
+.scrlContainer::-webkit-scrollbar-track {
+  display: none;
+}
+
+.scrlContainer::-webkit-scrollbar-thumb {
+  border: 1px solid;
+  border-color: inherit;
+  border-radius: var(--scrlRadius);
+  box-shadow: 0 0 0 var(--scrlWidth) inset;
+}

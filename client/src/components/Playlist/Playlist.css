@@ -1,0 +1,16 @@
+.plContainer {
+  width: 100%;
+  height: 100%;
+  background: rgb(24, 24, 24);
+  border-right: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+.plHeader {
+  font-size: 3rem;
+  color: rgb(228, 228, 228);
+  text-align: center;
+}
+
+.plSep {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+}

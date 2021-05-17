@@ -1,0 +1,76 @@
+.homeBackgroundContainer {
+  height: 100vh;
+  background-image: url("./img/background-photo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeMiddleContainer {
+  margin-top: 45px;
+  background-color: rgba(87, 87, 87, 0.6);
+  border: black;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeMiddleText h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.homeMiddleBox {
+  display: flex;
+}
+
+.homeMiddleBox img {
+  height: 48px;
+  width: 48px;
+}
+
+.homeMiddleContainer button {
+  font-size: 30px;
+  background: rgba(255, 230, 0, 0.85);
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px black;
+  padding: 2px;
+  text-decoration: none;
+}
+
+.homePublicRoomsContainer {
+  width: 95%;
+  height: 45%;
+  background-color: rgba(87, 87, 87, 0.6);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+.homePublicRoomsContainer h1 {
+  color: white;
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.homePublicRoomLists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.homeCreateRoomLink {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+}
